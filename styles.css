@@ -50,7 +50,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
-  width: calc(100% - 300px);
+  max-width: 1236px;
 }
 .card > img {
   position: absolute;
@@ -100,6 +100,9 @@ h1 {
   opacity: 0.5;
 }
 @media (max-width: 1410px) {
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
   .card:first-child {
     grid-column: span 1;
   }
