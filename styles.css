@@ -38,6 +38,12 @@ h2 {
   font-size: 21px;
   position: relative;
 }
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
 /* Global Rules end */
 /* Testimonials start */
 .container {
@@ -58,13 +64,13 @@ h2 {
 }
 .card:first-child {
   background-color: var(--moderate-violet);
-  color: var(--light-grey);
+  color: white;
   grid-column: span 2;
   position: relative;
 }
 .card:nth-child(2) {
   background-color: var(--dark-grayish-blue);
-  color: var(--light-grey);
+  color: white;
 }
 .card:nth-child(3) {
   background-color: white;
@@ -78,7 +84,7 @@ h2 {
 .card:nth-child(5) {
   background-color: var(--dark-blackish-blue);
   grid-column: span 2;
-  color: var(--light-grey);
+  color: white;
 }
 .pic-and-name {
   display: flex;
